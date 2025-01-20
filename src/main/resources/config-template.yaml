@@ -14,10 +14,10 @@
 
 #sonarr:
 ## Base URL for Sonarr, including the 'http' and port and any configured urlbase. DEFAULT: "localhost:8989"
-#  baseUrl: "127.0.0.1:8989"
+baseUrl: "192.168.178.79:30027"
 
 ## API key for Sonarr, found in your Sonarr UI -> General settings
-#  apikey: "YOUR-API-KEY"
+apikey: "48947dbd4c6f4b89b236eb8b30a227e7"
 
 ## If qualityProfile is not set, Watchlistarr will grab the first one it finds on Sonarr
 #  qualityProfile: "Your Desired Sonarr Quality Profile"
@@ -43,10 +43,10 @@
 
 #radarr:
 ## Base URL for Radarr, including the 'http' and port and any configured urlbase. DEFAULT: "localhost:7878"
-#  baseUrl: "127.0.0.1:7878"
+baseUrl: "192.168.178.79:30025"
 
 ## API key for Radarr, found in your Radarr UI -> General settings
-#  apikey: "YOUR-API-KEY"
+apikey: "9827e4398682492bb0ce423231e15a05"
 
 ## If not set, will grab the first one it finds on Radarr
 #  qualityProfile: "Your Desired Radarr Quality Profile"
